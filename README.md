@@ -34,7 +34,9 @@ You can also download and unzip the module into your Foundry Data folder so that
 `Data/modules/effective-crits/module.json`
 
 Restart Foundry, launch your world, and enable **Effective Critical Hits** under **Game Settings → Manage Modules**.
-## Behaviour
+## Behavior
+
+![Example of Effective Critical Hit notification](assets/CritShotText.png) ![Example of Effective Critical damage bonus](assets/CritShotDice.png)
 
 - The minimum damage is based on the total damage of the attack, including attacks with multiple damage types.
 
