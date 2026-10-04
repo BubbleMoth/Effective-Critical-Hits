@@ -21,7 +21,7 @@ Requires FoundryVTT v14 and dnd5e 6.0 or later.
 2. Click **Install Module**.
 3. Paste the module's manifest URL into the **Manifest URL** field:
 
-   `MANIFEST URL WILL ADD LATER`
+   `https://github.com/BubbleMoth/Effective-Critical-Hits/releases/latest/download/module.json`
 
 4. Click **Install**.
 5. Launch your world and go to **Game Settings → Manage Modules**.
