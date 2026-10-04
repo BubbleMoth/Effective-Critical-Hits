@@ -1,0 +1,39 @@
+ .chat-message .effective-crit-note {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  margin: 0.25em 0 0;
+  font-size: var(--font-size-12, 12px);
+  opacity: 0.85;
+}
+.chat-message .effective-crit-note i {
+  color: #e03131;
+}
+
+/* Effective Crit entry in the damage breakdown */
+.dice-tooltip .dice-rolls .effective-crit-bonus {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.3em;
+  margin-left: 0.4rem;
+  list-style: none;
+  white-space: nowrap;
+  cursor: help;
+}
+.dice-tooltip .dice-rolls .effective-crit-bonus .effective-crit-label {
+  font-family: var(--dnd5e-font-roboto-condensed, var(--font-primary));
+  font-size: var(--font-size-10, 10px);
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
+  white-space: nowrap;
+}
+.dice-tooltip .dice-rolls .effective-crit-bonus .effective-crit-value {
+  font-family: var(--font-primary);
+  font-weight: bold;
+  font-size: var(--font-size-18, 18px);
+}
+.dice-tooltip .dice-rolls .effective-crit-bonus .sign {
+  font-weight: normal;
+  color: var(--color-text-tertiary);
+  margin-right: 2px;
+}

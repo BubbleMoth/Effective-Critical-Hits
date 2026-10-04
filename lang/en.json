@@ -1,0 +1,19 @@
+{
+  "EFFECTIVECRITS": {
+    "Settings": {
+      "Enabled": {
+        "Name": "Enable Effective Critical Hits",
+        "Hint": "On a critical hit, if the rolled damage is lower than the maximum damage of a normal hit, raise it to that maximum."
+      },
+      "ShowNote": {
+        "Name": "Show note on damage cards",
+        "Hint": "Add a short line to the damage chat card whenever a critical's damage was raised."
+      }
+    },
+    "Note": "Effective crit: rolled {rolled}, raised to {floor}",
+    "BreakdownLabel": "Effective Crit",
+    "BreakdownTooltip": "Added so the critical deals at least the maximum damage of a normal hit",
+    "NoteParts": "({parts})",
+    "Disabled": "Effective Critical Hits has switched itself off because this version of the D&D 5e system isn't supported ({reason}). Critical hits follow the rules as written until the module is updated."
+  }
+}
