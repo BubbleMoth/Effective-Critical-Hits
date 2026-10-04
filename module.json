@@ -1,0 +1,47 @@
+{
+  "id": "effective-crits",
+  "title": "Effective Critical Hits",
+  "description": "Critical hits roll their dice as normal, but can never deal less than the maximum damage of a regular hit.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "BubbleMoth"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.0.0",
+          "verified": "6.0.5"
+        }
+      }
+    ],
+    "recommends": [
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "reason": "Lets Effective Critical Hits share damage-roll code safely with other modules."
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/effective-crits.mjs"
+  ],
+  "styles": [
+    "styles/effective-crits.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ]
+}
