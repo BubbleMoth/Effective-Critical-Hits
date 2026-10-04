@@ -3,6 +3,7 @@
   "title": "Effective Critical Hits",
   "description": "Critical hits roll their dice as normal, but can never deal less than the maximum damage of a regular hit.",
   "version": "1.0.0",
+  "url": "https://github.com/BubbleMoth/Effective-Critical-Hits",
   "authors": [
     {
       "name": "BubbleMoth"
